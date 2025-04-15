@@ -1,18 +1,25 @@
-# kotlin-jvm-blocking-bridge
+# Kotlin JVM Blocking Bridge
 
 **[CHINESE 简体中文](./README-chs.md)**
 
-Kotlin compiler plugin for generating blocking bridges for calling suspend functions from Java with minimal effort
+Kotlin and IDEA compiler plugin supporting both K1 and K2 for generating blocking bridges to:
+
+1. Call suspend functions from Java.
+2. Override suspend functions in Java.
+
+with minimal effort.
+
+> THIS PROJECT IS STILL UNDER DEVELOPMENT.
 
 ## Screenshots
 
 <details>
 <summary>Click to expand</summary>
 
-Kotlin suspend functions:  
+Kotlin suspend functions: 
 ![image_2.png](https://i.loli.net/2020/08/08/d5cYwhQqeuj8Nvf.png)
 
-Bridge method calls:  
+Bridge method calls: 
 ![image.png](https://i.loli.net/2020/08/08/tJyGeOcB8E4muQ5.png)
 
 Documentation and navigation support:  

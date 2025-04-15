@@ -1,5 +1,7 @@
 # kotlin-jvm-blocking-bridge
 
+> 因为项目正在开发，尚未更新中文 README，请参考英文 README。
+
 **[ENGLISH 英文](./README.md)**
 
 为 Kotlin `suspend` 函数快速生成‘阻塞式方法桥’的 Kotlin 编译器插件。
